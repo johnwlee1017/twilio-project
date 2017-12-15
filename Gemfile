@@ -13,6 +13,10 @@ gem 'activerecord', '~>4.2.0'
 gem 'rake'
 
 gem 'shotgun', '~>0.9.1'
+gem 'bcrypt'
+gem 'dotenv'
+gem 'stripe'
+gem 'twilio-ruby'
 
 group :test do
   gem 'shoulda-matchers'
