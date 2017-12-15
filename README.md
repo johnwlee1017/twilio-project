@@ -1,3 +1,4 @@
 
 # twilio-project
->>>>>>> 6f3a70b5c5cbeaccacb47d60de4498738c93ad2f
+
+A simple interface that sends reminders to friends (individually or all at once) via text messages.
