@@ -25,14 +25,3 @@
     </div>
   </form>
 </div>
-
-# given a string return the reverse of the string without using the ruby reverse method
-def reverse_string(input)
-    reversed_string_array = []
-    string_array = input.split('')
-
-    string_array.length.times do
-        reversed_string_array << string_array.pop
-    end
-    reversed_string_array.join('')
-end
