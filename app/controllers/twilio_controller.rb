@@ -20,9 +20,9 @@ post '/twilio' do
   from = '+14159148891' 
   
   # friends = {
-  #   '+16618771576' => 'John',
-  #   '+15305518459' => 'Kanji',
-  #   '+15109658997' => 'Anson'
+  #   '' => 'John',
+  #   '' => 'Kanji',
+  #   '' => 'Anson'
   # }
 
   friends = params[:friends]
