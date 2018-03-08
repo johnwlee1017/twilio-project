@@ -10,8 +10,8 @@ post '/twilio' do
 
   p params[:friends]
 
-  account_sid = 'AC5799dc5884c889fbb6a4d97c295d3a42'
-  auth_token = 'f80a5f01aac6879c67a524856c97e10a'
+  account_sid = #hidden
+  auth_token = #hidden
   client = Twilio::REST::Client.new account_sid, auth_token
   
   from = '+14159148891' 
